@@ -14,3 +14,12 @@ An end-to-end automated ETL (Extract, Transform, Load) data pipeline built with 
 │   └── main.py         # Orchestrates the end-to-end ETL workflow
 ├── requirements.txt    # Project dependencies
 └── README.md
+
+Key Transformations & Feature Engineering
+Schema & Type Enforcement: Casts pricing, volume, and market cap fields to numeric types with safe null handling.
+
+Text Standardization: Normalizes ticker symbols to uppercase.
+
+Intraday Volatility (intraday_volatility_pct): Calculates the percentage spread between the 24-hour high and low prices.
+
+UTC Audit Timestamp (extracted_at): Tags every batch with an ISO-8601 UTC execution timestamp for historical tracking.
