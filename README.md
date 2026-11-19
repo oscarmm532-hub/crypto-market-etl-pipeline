@@ -25,3 +25,7 @@ git clone [https://github.com/oscarmm532-hub/crypto-market-etl-pipeline.git](htt
 cd crypto-market-etl-pipeline
 pip install -r requirements.txt
 
+(Optional) Create a .env file in the root directory with your MongoDB connection string:
+MONGO_URI=your_mongodb_atlas_connection_string
+Run the pipeline:
+python src/main.py
