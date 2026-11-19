@@ -24,6 +24,3 @@ Key Transformations & Feature Engineering
 
 * UTC Audit Timestamp (extracted_at): Tags every batch with an ISO-8601 UTC execution timestamp for historical tracking.
 
-git clone [https://github.com/oscarmm532-hub/crypto-market-etl-pipeline.git](https://github.com/oscarmm532-hub/crypto-market-etl-pipeline.git)
-cd crypto-market-etl-pipeline
-
