@@ -15,7 +15,7 @@ An end-to-end automated ETL (Extract, Transform, Load) data pipeline built with 
 ├── requirements.txt    # Project dependencies
 └── README.md
 
-## Key Transformations & Feature Engineering
+Key Transformations & Feature Engineering 
 * Schema & Type Enforcement: Casts pricing, volume, and market cap fields to numeric types with safe null handling.
 
 * Text Standardization: Normalizes ticker symbols to uppercase.
